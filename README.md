@@ -33,7 +33,7 @@ Here is a sample configuration:
 }
 ```
 
-Ensure to have the ``` snapshot_path ``` line configured correctly, as it will enable you to automatically commit changes to your all your Decks stored in the ``` Anki/<username> ``` folder, by running the ``` File > CrowdAnki: Snapshot ``` menu item. 
+Ensure to have the ``` snapshot_path ``` line configured correctly, as it will enable you to automatically commit changes to all your Decks stored in the ``` Anki/<username> ``` folder, by running the ``` File > CrowdAnki: Snapshot ``` menu item. 
 
 ### Contributing to (this) repository
 
@@ -46,7 +46,9 @@ git clone https://github.com/lorenzorota/anki-python-3.git python-3
 From Anki-desktop, go to ``` File > CrowdAnki: Import from disk ```, and select the folder that you just retrieved.
 Running ``` File > CrowdAnki: Snapshot ``` will automatically commit changes to this repository. You will then only need to run:
 
-``` git push ```
+```
+git push
+```
 
 A manual approach would be to run:
 
