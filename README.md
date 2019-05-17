@@ -33,11 +33,11 @@ Here is a sample configuration:
 }
 ```
 
-Ensure to have the ``` snapshot_path ``` line configured correctly, as it will enable you to automatically commit changes to all your Decks stored in the ``` Anki/<username> ``` folder, by running the ``` File > CrowdAnki: Snapshot ``` menu item. 
+Ensure to have the ``` snapshot_path ``` line configured correctly, as it will enable you to automatically commit changes to all your Decks stored in the ``` ~/Anki/<username> ``` folder, by running the ``` File > CrowdAnki: Snapshot ``` menu item. 
 
 ### Contributing to (this) repository
 
-To contribute to this repository, make sure to be in the ``` Anki/<username> ``` folder and simply run the following command from your terminal:
+To contribute to this repository, make sure to be in the ``` ~/Anki/<username> ``` folder and simply run the following command from your terminal:
 
 ```
 git clone https://github.com/lorenzorota/anki-python-3.git python-3
@@ -50,7 +50,7 @@ Running ``` File > CrowdAnki: Snapshot ``` will automatically commit changes to 
 git push
 ```
 
-A manual approach would be to run:
+A manual approach would be to navigate to your deck (in this case ``` python-3 ```), hovering over the configuration icon and pressing Export. Select the ``` Export format: CrowdAnki Json representation (\*directory) ```, press ``` Export... ```, and save to the ``` ~/Anki/<username> ``` folder. Then run the following commands
 
 ```
 git pull
